@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const CustomImage: NextPage = () => (
   <div>
-    <Image width={150} height={100} src={IMG} alt="" />
+    <Image width={110} height={50} src={IMG} alt="" />
   </div>
 );
 

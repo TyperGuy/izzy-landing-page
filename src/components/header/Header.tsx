@@ -3,10 +3,12 @@ import Image from '../logo-image/Logo';
 
 const Header : React.FC =()=>{
   return(
-    <div className="flex flex-row items-center">
+    <div style={{display: 'flex', alignItems:'center', backgroundColor:'red'}}>
       <Image/>
-      <ul className="list-disc">
-        <li>Now this</li>
+      <ul style={{display: 'flex', flexDirection: 'row', gap : '10px'}}>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
       </ul>
     </div>
   )

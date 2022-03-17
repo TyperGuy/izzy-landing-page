@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
-import Header from '../components/header/Header';
+import LandingPage from '../views/landing/Landing';
 
 const Home: NextPage = () => (
   <div>
-    <Header/>
+    <LandingPage/>
   </div>
 );
 
