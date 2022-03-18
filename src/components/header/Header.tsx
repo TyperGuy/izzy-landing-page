@@ -3,18 +3,14 @@ import Image from '../logo-image/Logo';
 import {Container,ChildContainer as Child} from './Header.styles';
 import Button from 'components/button/Button';
 import Constants  from 'international/pt-pt/constants.json';
+import Navbar from 'components/navbar/Navbar';
 
 const Header : React.FC =()=>{
 
   return(
     <Container >
       <Image/>
-      <Child>
-        <div>Inicio</div>
-        <div>Como Funciona</div>
-        <div>Serviços</div>
-        <div>Quem Somos</div>
-      </Child>
+      <Navbar/>
       <Child>
         <Button isOutline={true} title={Constants.buttons.signin}/>
         <Button isOutline={false} title={Constants.buttons.signup}/>
