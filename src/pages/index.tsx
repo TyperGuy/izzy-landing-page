@@ -4,6 +4,7 @@ import LandingPage from '../views/landing/Landing';
 const Home: NextPage = () => (
   <div>
     <LandingPage/>
+    Raimundo Tony
   </div>
 );
 

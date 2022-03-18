@@ -1,16 +1,22 @@
 import React from 'react';
 import Image from '../logo-image/Logo';
+import {Container,ChildContainer as Child} from './Header.styles';
 
 const Header : React.FC =()=>{
   return(
-    <div style={{display: 'flex', alignItems:'center', backgroundColor:'red'}}>
+    <Container >
       <Image/>
-      <ul style={{display: 'flex', flexDirection: 'row', gap : '10px'}}>
-        <li>First</li>
-        <li>Second</li>
-        <li>Third</li>
-      </ul>
-    </div>
+      <Child>
+        <div>Inicio</div>
+        <div>Como Funciona</div>
+        <div>Serviços</div>
+        <div>Quem Somos</div>
+      </Child>
+      <Child>
+        <div>Inicio</div>
+        <div>Como Funciona</div>
+      </Child>
+    </Container>
   )
 }
 

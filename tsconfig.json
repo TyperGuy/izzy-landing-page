@@ -20,6 +20,6 @@
     "baseUrl": "./src"
 
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/assets/styles/Global.styles.js"],
   "exclude": ["node_modules"]
 }
