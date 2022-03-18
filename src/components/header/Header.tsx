@@ -2,7 +2,7 @@ import React from 'react';
 import Image from '../logo-image/Logo';
 import {Container,ChildContainer as Child} from './Header.styles';
 import Button from 'components/button/Button';
-import Constants  from '../../international/pt-pt/constants.json';
+import Constants  from 'international/pt-pt/constants.json';
 
 const Header : React.FC =()=>{
 

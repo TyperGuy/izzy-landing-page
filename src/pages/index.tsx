@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import LandingPage from '../views/landing/Landing';
+import LandingPage from 'views/landing/Landing';
 
 const Home: NextPage = () => (
   <div>
