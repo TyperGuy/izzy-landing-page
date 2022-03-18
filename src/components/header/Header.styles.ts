@@ -7,12 +7,14 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 `;
 
 export const ChildContainer = styled.div`
   display: flex;
   align-items: center;
   gap:1.5rem;
+  cursor: pointer;
 `;
 
 
