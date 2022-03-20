@@ -10,6 +10,7 @@
   height: 100%;
   margin-left: 90px;
   max-width: 550px;
+  gap: .5rem;
 }
 .title{
   line-height: 1.1;
@@ -21,13 +22,13 @@
 }
 .strong{
   position: relative;
-  color: #94dbff;
+  color:#820ad1;
 }
 .strong::after{
   content: "";
   position: absolute;
   display: block;
-  border-top: 4.9px solid #94dbff;
+  border-top: 4.9px solid #820ad1;
   border-radius: 47%;
   left: -6px;
   right: -6px;

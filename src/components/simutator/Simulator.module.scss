@@ -1,0 +1,30 @@
+
+$globalWidth : 100%;
+
+.container{
+  width: $globalWidth;
+  border: 1px solid #d2d2d2;
+  border-radius: .5rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.select{
+  width: calc($globalWidth/3);
+}
+
+.btn{
+  display: flex !important;
+  align-items: center !important;
+  gap: .5rem;
+  border-radius: .3rem !important;
+  font-weight: 600 !important;
+  background-color:#820ad1 !important;
+  color: #ffff!important;
+}
+.btn:hover{
+  background-color:#9442ca !important;
+  color: #fff;
+  border: 1px solid #9442ca !important ;
+}
