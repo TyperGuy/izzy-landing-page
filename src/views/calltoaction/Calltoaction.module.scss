@@ -1,0 +1,46 @@
+.container{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.actioncontainer{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 90px;
+  max-width: 550px;
+}
+.title{
+  line-height: 1.1;
+  font-weight: 700;
+  max-width: 571px;
+  margin-bottom: 16px;
+  font-size: calc(27.3333px + 1.85185vw);
+  color: #2d2d2d;
+}
+.strong{
+  position: relative;
+  color: #94dbff;
+}
+.strong::after{
+  content: "";
+  position: absolute;
+  display: block;
+  border-top: 4.9px solid #94dbff;
+  border-radius: 47%;
+  left: -6px;
+  right: -6px;
+  bottom: -9px;
+  height: 11px;
+  transform: rotate(-0.6deg);
+}
+
+.imgContainer{
+  background-image: url('../../assets/images/lowincomingfamily.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 650px;
+  height: 500px;
+}
