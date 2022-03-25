@@ -14,6 +14,7 @@ export const ChildContainer = styled.div`
   display: flex;
   align-items: center;
   gap:3rem;
+  filter: grayscale(1);
 `;
 
 

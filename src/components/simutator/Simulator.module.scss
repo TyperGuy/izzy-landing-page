@@ -12,7 +12,10 @@ $globalWidth : 100%;
 }
 .select{
   width: calc($globalWidth/3);
+  padding: 0 .5rem;
+  background-color: #820ad1!important;
 }
+
 
 .btn{
   display: flex !important;

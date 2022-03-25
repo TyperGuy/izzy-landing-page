@@ -18,9 +18,28 @@ export const Container = styled.div`
     color: #fff;
   }
 `;
-export const ChildContainer = styled.div`
+export const Custom = styled.div`
+  padding: .5rem 2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: .2rem;
+  color: white;
+  font-weight: 500;
+  background-color: #2D2D2D;
+  color: #ffff;
+  transition: all .3s ease-in-out;
+  &:hover{
+    background-color:#820ad1;
+    color: #fff;
+  }
+`;
+
+export const Flex = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap:1.5rem;
   cursor: pointer;
 `;

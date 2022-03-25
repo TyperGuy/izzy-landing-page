@@ -2,7 +2,7 @@ import React from 'react';
 import Styled from './Navitem.module.scss';
 import Lisitem  from 'components/listitem/Listitem';
 import {BsChevronDown as Arrow} from 'react-icons/bs';
-import styled from 'styled-components';
+
 
 const Navitem : React.FC =()=>{
 

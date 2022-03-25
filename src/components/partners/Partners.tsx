@@ -11,7 +11,14 @@ const Simulator: React.FC = () => (
  
   <div style={{width:'100%',height:200, backgroundColor:'#f5f5f5', display:'flex',justifyContent:'center', alignItems:'center'}}>
     <Styles.Container>
-      <div style={{width:'200px',height:200, display:'flex',justifyContent:'center', alignItems:'center'}}>
+      <div style={{
+        width:'200px',
+        height:200, 
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center',
+        fontSize:'1rem',
+        fontWeight:"bold"}}>
         <p>Construindo um relacionamento forte com os nossos parceiros</p>
       </div>
       <Styles.ChildContainer>
