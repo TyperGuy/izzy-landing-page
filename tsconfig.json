@@ -17,7 +17,11 @@
     "paths" :{
       "~/*" :["./src/*"]
     },
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "typeRoots": [
+      "src/customTypings",
+      "node_modules/@types"
+    ]
 
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/assets/styles/Global.styles.ts", "src/pages/_document.js"],
