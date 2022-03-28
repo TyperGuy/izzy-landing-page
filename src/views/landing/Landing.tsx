@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
 import Header from '../../components/header/Header';
 import Calltoaction from 'views/calltoaction/Calltoaction';
-import Partners from 'components/partners/Partners'
+import Partners from 'components/partners/Partners';
+import  Benefities from 'views/benefities/Benefities';
 
 
 const LandingPage: NextPage = () => (
@@ -11,6 +12,7 @@ const LandingPage: NextPage = () => (
     </div>
     <Calltoaction/>
     <Partners/> 
+    < Benefities/>
   </div>
   
 );

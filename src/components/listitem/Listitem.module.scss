@@ -21,11 +21,15 @@ $raidus : .5rem;
   }
   .box{
     padding:.0rem;
+    border: 2px solid #820AD1;;
+  }
+  .arrow{
+    color: #820AD1;
   }
 }
 
 .box{
-  border: 2px solid #820AD1;
+  border: 2px solid #2D2D2D;
   background-color: #fff;
   max-width: 120px;
   max-height: 120px;
@@ -49,7 +53,7 @@ $raidus : .5rem;
 }
 
 .arrow{
-  color: #1a649c;
+  color: #2D2D2D;
 }
 .wrapper{
   font-size: .9em;

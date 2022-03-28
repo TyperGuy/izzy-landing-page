@@ -2,12 +2,11 @@ import React from 'react';
 import Styled from './Navitem.module.scss';
 import Lisitem  from 'components/listitem/Listitem';
 import {BsChevronDown as Arrow} from 'react-icons/bs';
-<<<<<<< HEAD
-=======
+
 import data from './data/Menu.file.json';
 
 
->>>>>>> b94eb580e59cf5e36752d646adb0e44f7bf4f387
+
 
 
 const Navitem : React.FC =()=>{
@@ -27,7 +26,7 @@ const Navitem : React.FC =()=>{
       {
         data.map((Item)=>{
           return(
-            <Lisitem {...Item}/>
+            <Lisitem {...Item} key={Item.key}/>
           )
         })
       }
