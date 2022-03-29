@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color:#F3F6F9;
 }
 .childContainer{
   width: 1224px;
@@ -10,13 +11,33 @@
 }
 .flexContainer{
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  flex-direction: column;
+  max-width: 500px;
+  margin-bottom:1rem;
+}
+
+.tag{
+  font-size: .875rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: 'Metropolis-Bold';
+  color: #820ad1;
 }
 .heading{
-  font-size: calc(24px + 1.66667vw);
+  font-size:clamp(1.5rem, 0.9643rem + 1.4286vw, 2.25rem);
   font-weight: 600;
   line-height: 56px;
+  line-height: 1.2222222222222223;
+  margin-bottom: .5rem;
+}
+.marker{
+  font-size:clamp(1.5rem, 0.9643rem + 1.4286vw, 2.25rem);
+  background: linear-gradient(to right, #820ad1, #0059B2);
+  background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .filter{
   width: 300px;

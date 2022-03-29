@@ -2,13 +2,18 @@
   width:100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.childContainer{
+  width:1222px;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .actioncontainer{
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin-left: calc((100% - 1222px) / 2);
   max-width: 600px;
   gap: .5rem;
 }
@@ -17,12 +22,13 @@
   font-weight: 700;
   max-width: 600px;
   margin-bottom: 16px;
-  font-size: calc(27.3333px + 1.85185vw);
+  font-size: calc(26px + 1.85185vw);
   color: #2d2d2d;
 }
 .strong{
   position: relative;
   color:#820ad1;
+  font-family: 'Metropolis-Bold';
 }
 .strong::after{
   content: "";
@@ -38,10 +44,11 @@
 }
 
 .imgContainer{
-  background-image: url('../../assets/images/lowincomingfamily.jpg');
+  background-image: url('../../../public/background.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 650px;
+  width: 550px;
   height: 500px;
+  box-shadow: rgba(210, 74, 255, 0.15) 0px 48px 100px 0px;
 }

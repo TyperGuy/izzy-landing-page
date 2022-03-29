@@ -1,3 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: Metropolis;
+  src:url("../../../public/fonts/metropolis/Metropolis-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Metropolis-Bold;
+  src: url("../../../public/fonts/metropolis/Metropolis-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+*{
+  font-family: 'Metropolis', sans-serif;
+}
+
+
