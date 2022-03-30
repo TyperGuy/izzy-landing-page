@@ -6,7 +6,6 @@
 }
 .childContainer{
   width: 1224px;
-  height: 500px;
   padding: 3rem 0;
 }
 .flexContainer{
@@ -14,6 +13,7 @@
   flex-direction: column;
   max-width: 500px;
   margin-bottom:1rem;
+  gap:10px
 }
 
 .tag{
