@@ -2,13 +2,12 @@ import React from "react";
 import Styles from './Simulator.module.scss';
 import { Select} from 'antd';
 import {Button} from 'components/button/Button';
-import 'antd/dist/antd.css'; // or 'antd/dist/antd.less';
-import { BsJoystick as Icon } from 'react-icons/bs';
+import 'antd/dist/antd.css';
 
 const { Option } = Select;
 
 const Simulator: React.FC = () => (
- 
+
   <div className={Styles.container}>
       <Select placeholder="Seguro Desejado" size="large" className={Styles.select}>
         <Option value="lucy">lucy</Option>
@@ -24,7 +23,7 @@ const Simulator: React.FC = () => (
       </Select>
       <Button isOutline={false} title={"Constants.buttons.signup"}/>
   </div>
-  
+
 );
 
 export default Simulator;

@@ -5,6 +5,8 @@
   background-color:#F3F6F9;
 }
 .childContainer{
+  display: flex;
+  justify-content: space-between;
   width: 1224px;
   padding: 3rem 0;
 }
@@ -58,4 +60,11 @@
 }
 .title{
   font-size:1.2rem;
+}
+
+.infContainer{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(172, 236, 255);
+  border-radius: 1rem;
 }

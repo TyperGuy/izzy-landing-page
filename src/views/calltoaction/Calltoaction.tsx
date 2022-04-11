@@ -9,7 +9,7 @@ const Calltoaction: React.FC = () => (
     <div className={Styles.childContainer}>
       <div className={Styles.actioncontainer}>
         <p className={Styles.title}>Seguros <strong className={Styles.strong}>encaixam</strong>  perfeitamente em cada um</p>
-        <p>Organize seu dinheiro em tempo real em uma solução completa, prática e segura, e garanta o controle total das suas finanças.</p>
+        <p className={Styles.content}>A primeira Startup Angolana focada em levar os seguros a população de baixa renda usando  canais presencial e virtual</p>
         <Simulator/>
      </div>
     <div className={Styles.imgContainer}/>

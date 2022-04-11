@@ -7,9 +7,9 @@ const Navbar : React.FC =()=>{
   return(
    <Nav>
      <Item/>
-     <div>jkjkjk</div>
-     <div>jkjkjk</div>
-     <div>jkjkjk</div>
+     <div>Services</div>
+     <div>Download</div>
+     <div>FQA</div>
    </Nav>
   )
 }

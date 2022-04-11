@@ -17,7 +17,7 @@ const Navitem : React.FC =()=>{
   return(
     <div className={Styled.dropdown}>
     <div className={Styled.dropbtn}>
-      <span>Dropdown</span>
+      <span>Até onde vamos?</span>
       {(1+1==2)&&<Arrow className={Styled.arrow}/>}
     </div>
     {(1+1==2)&&
