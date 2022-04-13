@@ -1,0 +1,48 @@
+[
+  {
+    "question": "O que é o Microsseguro ",
+    "answer": "Microsseguro é o seguro que é acessado pela população de baixa renda, ofertado por vários tipos de entidades diferentes, mas administrado de acordo com práticas geralmente aceitas em seguro (que devem incluir os Princípios Básicos de Seguro). ais importante, isto significa que o risco segurado por uma apólice de microsseguro é gerido conforme os princípios de seguro e capitalizado por prêmios. A própria atividade de microsseguro, portanto, deveria estar dentro da alçada de um ente regulador/supervisor doméstico de seguros ou qualquer outro órgão competente dentro das leis nacionais de qualquer jurisdição.",
+    "id":1,
+    "options": []
+  },
+  {
+    "question": "Como functiona o Microsseguro ",
+    "answer": "É a proteção para as necessidades específicas das pessoas de baixa renda em troca de pagamentos de prêmios proporcionais ao tipo e ao custo dos riscos envolvidos.",
+    "id":2,
+    "options": []
+  },
+  {
+    "question": "Quais aas formas de contratação do Microsseguro ",
+    "answer": "A contratação do Microsseguro pode ser efetivada mediante emissão de bilhete  de apólice ou de certificado individual, não sendo admitida mais de uma forma de contratação concomitante para um mesmo plano de microsseguro.",
+    "id":3,
+    "options": []
+  },
+  {
+    "question": "Quais as coberturas que podem ser oferecidas nos Microsseguros ",
+    "answer": "Os planos de microsseguro poderão ofertar as seguintes coberturas, isoladamente ou em conjunto:",
+    "id":4,
+    "options": ["Coberturas de Pessoas","Cobertura de Negócios","Coberturas de Danos","Nos planos de previdência equiparados aos planos de microsseguros, somente poderão ser ofertadas as coberturas de morte e invalidez permanente e total."]
+  },
+  {
+    "question": "Quais riscos não estão cobertos pelo microsseguro ",
+    "answer": "O segurado deve observar os riscos excluídos referentes a cada cobertura contratada, os quais deverão estar relacionados logo após a descrição dos riscos cobertos. ",
+    "id":5,
+    "options": []
+  }
+  ,
+  {
+    "question": "Quais as características dos microsseguros ? ",
+    "answer": "Conforme MATOS(2007:39), as principais características do microsseguro são: ",
+    "id":6,
+    "options": ["Direcionado para pessoas de baixa renda","Relevantes para a realidade do segurado","Amplamente inclusivo, com poucas exclusões","Documentação de fácil acesso para reclamação de sinistro","Apólices com condições simples e fáceis de entender","Produtos massificados (Precificação baseada no coletivo)","Baixo valor máximo segurado","Prêmios de baixo valor","Flexibilidade de pagamento de prêmio","Esforço para criar cultura de seguro no cliente","Canais alternativos de venda"]
+  }
+]
+
+
+
+
+
+
+
+
+

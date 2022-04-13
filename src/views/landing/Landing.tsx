@@ -4,6 +4,7 @@ import Calltoaction from 'views/calltoaction/Calltoaction';
 import Partners from 'components/partners/Partners';
 import  Benefities from 'views/benefities/Benefities';
 import Download from '../../components/download/Download';
+import Fqa from '../../components/fqa/Fqa';
 
 
 const LandingPage: NextPage = () => (
@@ -15,6 +16,7 @@ const LandingPage: NextPage = () => (
     <Partners/>
     < Benefities/>
     <Download/>
+    <Fqa/>
   </div>
 
 );

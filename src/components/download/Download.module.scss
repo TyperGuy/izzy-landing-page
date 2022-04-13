@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, #0059B2 ,  #820ad1, #820ad1);
 }
 .childContainer{
   max-width: 900px;
@@ -38,7 +37,6 @@
   letter-spacing: 0;
   margin-bottom: 10px;
   font-family: 'Metropolis-Bold';
-  color: #ffffff;
 }
 .heading{
   font-size:clamp(1.5rem, 0.9643rem + 1.4286vw, 2.25rem);
@@ -49,7 +47,7 @@
 }
 .marker{
   font-size:clamp(1.5rem, 0.9643rem + 1.4286vw, 2.25rem);
-  background: linear-gradient(to right, #ffffff, #b0d4f9);
+  background: linear-gradient(90deg, #0059B2 , #820ad1);
   background-clip: border-box;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -59,12 +57,10 @@
   font-size:1.2rem;
 }
 
-
-
 .downloadContainer{
   display:flex;
   gap: 1.5rem;
-  max-width: 500px;
+  max-width: 350px;
 }
 
 
