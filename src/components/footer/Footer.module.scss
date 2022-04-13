@@ -1,13 +1,54 @@
 .container {
   width: 100%;
-  height: 400px;
+  height: 250px;
   background-color: #820ad1;
   display: flex;
   align-items: center;
   justify-content:center;
+
 }
 .childContainer{
   height: 100px;
   width: 1222px;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
+.upContainer{
+  display: flex;
+  gap: 4rem;
+}
+.downContainer{
+  display: flex;
+  gap: 2rem;
+  color: #fff;
+}
+.downContainer a{
+  color: #fff;
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+
+.infoContainer h1{
+  color: #fff;
+}
+.infoContainer p{
+  color: #fff;
+}
+.infoContainer h2{
+  color: #fff;
+}
+.icon{
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  gap: 2rem;
+}
+
+
+
+
