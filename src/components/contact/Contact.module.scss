@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to left, #F3F6F9,#fff);
+
+}
+.formContainer{
+ position: relative;
+}
+.childContainer{
+  height: 100%;
+  width: 1222px;
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  position: relative;
+}
+
+.locationsContainer{
+  max-width: 500px;
+}

@@ -1,0 +1,28 @@
+.container{
+  width: 400px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -120px; /* top left/right bottom */
+  left: -400px;
+  border-radius:.5rem;
+}
+.myForm{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.input{
+  padding-top:.8rem;
+  padding-bottom:.8rem;
+  border-radius:.6rem;
+  font-size:1.1em;
+}

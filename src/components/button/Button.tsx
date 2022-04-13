@@ -8,7 +8,7 @@ export const Button : React.FC<{isOutline:boolean,title:string}> =(props)=>{
     <>
       <MyButton.Custom>
           <MyButton.Flex>
-             <div>Entrar</div><Arrow/>
+             <div>{props.title}</div><Arrow/>
           </MyButton.Flex>
       </MyButton.Custom>
     </>
@@ -21,7 +21,7 @@ export const IconButton : React.FC<{isOutline:boolean,title:string}> =(props)=>{
     <>
       <MyButton.Container>
         <MyButton.Flex>
-            <div>Entrar</div><Arrow/>
+            <div>{props.title}</div><Arrow/>
         </MyButton.Flex>
       </MyButton.Container>
     </>

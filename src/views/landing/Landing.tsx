@@ -5,6 +5,9 @@ import Partners from 'components/partners/Partners';
 import  Benefities from 'views/benefities/Benefities';
 import Download from '../../components/download/Download';
 import Fqa from '../../components/fqa/Fqa';
+import Footer from '../../components/footer/Footer';
+import Contact from '../../components/contact/Contact';
+import React from 'react';
 
 
 const LandingPage: NextPage = () => (
@@ -17,6 +20,8 @@ const LandingPage: NextPage = () => (
     < Benefities/>
     <Download/>
     <Fqa/>
+    <Contact/>
+    <Footer/>
   </div>
 
 );

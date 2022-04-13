@@ -21,7 +21,7 @@ const Simulator: React.FC = () => (
         <Option value="Eduarda">Eduarda</Option>
         <Option value="Gorduchas">Gorduchas</Option>
       </Select>
-      <Button isOutline={false} title={"Constants.buttons.signup"}/>
+      <Button isOutline={false} title={"Simular"}/>
   </div>
 
 );
