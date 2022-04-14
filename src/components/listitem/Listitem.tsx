@@ -18,7 +18,7 @@ type Item = {
 };
 
 let images = [
-  image1,image2,image1,image4
+  image1,image2,image3,image4
 ]
 
 
