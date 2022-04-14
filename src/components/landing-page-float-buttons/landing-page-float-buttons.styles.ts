@@ -11,7 +11,7 @@ export const Container = styled.div<{ isOnBottom: boolean }>`
   right: 20px;
   bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px  #9C9C9C;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px;
   transition: all 0.5s ease;
 
   .wrapper {

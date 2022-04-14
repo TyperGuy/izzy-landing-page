@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import Header from '../../components/header/Header';
 import Calltoaction from 'views/calltoaction/Calltoaction';
 import Partners from 'components/partners/Partners';
@@ -10,10 +10,18 @@ import Footer from '../../components/footer/Footer';
 import Contact from '../../components/contact/Contact';
 import React from 'react';
 import FloatingButton from 'components/landing-page-float-buttons';
+import Modal from 'components/modal';
 
 
 const LandingPage: NextPage = () => {
   const [isScrolling, setIsScrolling] = useState(false)
+  const modalRef = useRef<any>(null);
+
+  useEffect(() => {
+    if(modalRef.current) {
+      modalRef.current.handleShow(true)
+    }
+  }, [])
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -29,8 +37,6 @@ const LandingPage: NextPage = () => {
     return window.addEventListener('scroll', () => {})
   }, [isScrolling])
 
-
-
   return(
     <div id="float" style={{ display: 'flex', height: 'auto',flexDirection: 'column',alignItems: 'center'}}>
       <div style={{width: '100%', height: '70px', borderBottom: '1px solid #ebebeb', display: 'flex', alignItems: 'center' ,justifyContent: 'center'}}>
@@ -44,6 +50,7 @@ const LandingPage: NextPage = () => {
       <Fqa/>
       <Contact/>
       <Footer/>
+      <Modal modalRef={modalRef} />
     </div>
   )
 };
