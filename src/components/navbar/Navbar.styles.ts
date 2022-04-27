@@ -8,6 +8,12 @@ export const ChildContainer = styled.div`
   cursor: pointer;
 `;
 
-
+export const Btn = styled.span`
+  font-size: 16px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    color: #820ad1;
+  }
+`;
 
 
